@@ -1,0 +1,20 @@
+Manuel,Maria Emilia
+Maria Emilia,Beta
+Beta,Joel
+Joel,Zarita
+Zarita,Ana Maria
+Ana Maria,Bruno
+Bruno,Nuno
+Nuno,Cila
+Cila,Joao Manuel
+Joao Manuel,Odete
+Odete,Ines
+Ines,Goncalo
+Goncalo,Jaime
+Jaime,Carla
+Carla,Filipe
+Filipe,Tiago
+Tiago,Mila Franco
+Mila Franco,Marisa
+Marisa,Celestino
+Celestino,Manuel

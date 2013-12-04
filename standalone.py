@@ -21,7 +21,7 @@ LUSOSMS_NUMBER="CHANGE NUMBER"
 def checkcredit(listsize):
     gettext="/ver_credito_get.php?username=" + LUSOSMS_USER + "&password=" + LUSOSMS_PASS
     gettext = gettext.replace(" ","+")
-    print(gettext)
+    #print(gettext)
     conn = http.client.HTTPConnection("www.lusosms.com")
     conn.request("GET", gettext)
     r1 = conn.getresponse()
@@ -37,7 +37,7 @@ def sendsms(tlmdestino, texto):
     gettext="/enviar_sms_get.php?username=" + LUSOSMS_USER + "&password=" + \
             LUSOSMS_PASS + "&origem=" + LUSOSMS_NUMBER + "&destino=" + tlmdestino + "&mensagem=" + texto
     gettext = gettext.replace(" ","+")
-    print(gettext)
+    #print(gettext)
     conn = http.client.HTTPConnection("www.lusosms.com")
     conn.request("GET", gettext)
     r1 = conn.getresponse()
@@ -52,9 +52,10 @@ contactosdict={}
 lista=[]
 dictreader = csv.DictReader(open(INFILE_NAME, newline=''), delimiter=',', quotechar='"')
 for line in dictreader:
-    #print(line['nomes'])
-    lista.append(line['nomes'])
-    contactosdict[line['nomes']]=line['telemovel']
+    if not line['nomes'].strip().startswith("#"):
+        #print(line['nomes'])
+        lista.append(line['nomes'])
+        contactosdict[line['nomes']]=line['telemovel']
 
 checkcredit(len(lista))
 
@@ -70,7 +71,7 @@ while k<len(lista)-1:
     k=k+1
 
 for pessoa in listadict:
-  print(pessoa, ' - ', listadict[pessoa], ' - ', contactosdict[pessoa])
+  #print(pessoa, ' - ', listadict[pessoa], ' - ', contactosdict[pessoa])
   sendsms(contactosdict[pessoa], "Ola " + pessoa + ". Saiu-lhe no sorteio: " +  listadict[pessoa] + ".")
 
 

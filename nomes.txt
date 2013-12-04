@@ -1,17 +1,18 @@
 Celestino
 Maria Emilia
 Odete
-Ze Luis
+#Ze Luis
 Cila
-Sao
-Rogerio
-Rodrigo
+#Sao
+#Rogerio
+#Rodrigo
 Ana Maria
 Manuel
 Beta
-Rita
-Paulo
 Joao Manuel
+#Rita
+#Paulo
+#Guilherme
 Zarita
 Joel
 Filipe
@@ -23,3 +24,4 @@ Nuno
 Carla
 Bruno
 Tiago
+Ines
