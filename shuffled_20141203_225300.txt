@@ -1,0 +1,24 @@
+Joao Manuel,Jaime
+Jaime,Carla
+Carla,Cila
+Cila,Sao
+Sao,Celestino
+Celestino,Rodrigo
+Rodrigo,Rita
+Rita,Maria Emilia
+Maria Emilia,Filipe
+Filipe,Rogerio
+Rogerio,Zarita
+Zarita,Ines
+Ines,Ana Maria
+Ana Maria,Tiago
+Tiago,Paulo
+Paulo,Goncalo Franco
+Goncalo Franco,Beta
+Beta,Marisa
+Marisa,Nuno
+Nuno,Manuel
+Manuel,Joel
+Joel,Mila Franco
+Mila Franco,Odete
+Odete,Joao Manuel
