@@ -9,7 +9,7 @@
 from random import shuffle
 import csv
 from time import localtime, strftime
-
+from datetime import date
 
 INFILE_NAME='nomes.csv'
 OUTFILE_NAME="shuffled_%s.txt" %strftime("%Y%m%d_%H%M%S", localtime())
@@ -41,8 +41,9 @@ while k<len(lista)-1:
     k=k+1
 
 for pessoa in listadict:
-  #print(pessoa, ' - ', listadict[pessoa], ' - ', contactosdict[pessoa])
-  sendsms(contactosdict[pessoa], "Ola " + pessoa + ". Saiu-lhe no sorteio: " +  listadict[pessoa] + ".")
+  message = "Ola " + pessoa + ". Saiu-lhe no sorteio: " +  listadict[pessoa] + ". Feliz Natal " + str(date.today().year)
+  #print(pessoa, ' - ', listadict[pessoa], ' - ', contactosdict[pessoa], message)
+  sendsms(contactosdict[pessoa], message)
 
 
 OUTFILE = open(OUTFILE_NAME,"w")
