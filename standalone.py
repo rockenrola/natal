@@ -42,6 +42,7 @@ while k<len(lista)-1:
 
 for pessoa in listadict:
   message = "Ola " + pessoa + ". Saiu-lhe no sorteio: " +  listadict[pessoa] + ". Feliz Natal " + str(date.today().year)
+  print("message sent to: " + pessoa )
   #print(pessoa, ' - ', listadict[pessoa], ' - ', contactosdict[pessoa], message)
   sendsms(contactosdict[pessoa], message)
 
