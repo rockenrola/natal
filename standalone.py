@@ -25,9 +25,8 @@ for line in dictreader:
     if not line['nomes'].strip().startswith("#"):
         #print(line['nomes'])
         lista.append(line['nomes'])
-        contactosdict[line['nomes']]=line['telemovel']
+        contactosdict[line['nomes']]=line['email']
 
-checkcredit(len(lista))
 
 shuffle(lista)
 shuffle(lista)
@@ -42,9 +41,10 @@ while k<len(lista)-1:
 
 for pessoa in listadict:
   message = "Ola " + pessoa + ". Saiu-lhe no sorteio: " +  listadict[pessoa] + ". Feliz Natal " + str(date.today().year)
-  print("message sent to: " + pessoa )
-  #print(pessoa, ' - ', listadict[pessoa], ' - ', contactosdict[pessoa], message)
-  sendsms(contactosdict[pessoa], message)
+  #print("message sent to: " + pessoa )
+  print(pessoa, ' - ', listadict[pessoa], ' - ', contactosdict[pessoa], message)
+  #sendsms(contactosdict[pessoa], message)
+  sendemail(contactosdict[pessoa], "Natal " + str(date.today().year), message)
 
 
 OUTFILE = open(OUTFILE_NAME,"w")

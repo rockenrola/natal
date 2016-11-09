@@ -1,9 +1,12 @@
-
+import smtplib
 import http.client
 
 LUSOSMS_USER="CHANGE USER"
 LUSOSMS_PASS="CHANGE PASS"
 LUSOSMS_NUMBER="CHANGE NUMBER"
+EMAIL_FROM="CHANGE EMAIL"
+EMAIL_USER="CHANGE EMAIL"
+EMAIL_PASS="CHANGE PASS"
 
 def checkcredit(listsize):
     gettext="/ver_credito_get.php?username=" + LUSOSMS_USER + "&password=" + LUSOSMS_PASS
@@ -33,4 +36,19 @@ def sendsms(tlmdestino, texto):
         #print(data1)
         exit()
     conn.close()
+
+def sendemail(emaildestino, subject, message):
+    smtpserver='smtp.gmail.com'
+    smtpport=587
+    header  = 'From: %s\n' % EMAIL_FROM
+    header += 'To: %s\n' % emaildestino
+    header += 'Subject: %s\n\n' % subject
+    message = header + message
+
+    server = smtplib.SMTP(smtpserver, smtpport)  # use both smtpserver  and -port 
+    server.starttls()
+    server.login(EMAIL_USER, EMAIL_PASS)
+    problems = server.sendmail(EMAIL_FROM, emaildestino, message)
+    server.quit()
+
 
