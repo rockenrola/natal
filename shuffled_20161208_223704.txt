@@ -1,0 +1,25 @@
+Bruno,Cila
+Cila,Beta
+Beta,Rodrigo
+Rodrigo,Celestino
+Celestino,Filipe
+Filipe,Ines
+Ines,Joao Manuel
+Joao Manuel,Ana Maria
+Ana Maria,Odete
+Odete,Ze Luis
+Ze Luis,Sao
+Sao,Nuno
+Nuno,Maria Emilia
+Maria Emilia,Tiago
+Tiago,Rogerio
+Rogerio,Joel
+Joel,Goncalo Franco
+Goncalo Franco,Rita
+Rita,Paulo
+Paulo,Manuel
+Manuel,Jaime
+Jaime,Carla
+Carla,Mila Franco
+Mila Franco,Marisa
+Marisa,Bruno
