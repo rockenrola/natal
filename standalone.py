@@ -45,6 +45,7 @@ for pessoa in listadict:
   print("message sent to: " + pessoa )
   #print(pessoa, ' - ', listadict[pessoa], ' - ', contactosdict[pessoa], message)
   sendsms(contactosdict[pessoa], message)
+  #send_mail(contactosdict[pessoa], message, 'Natal ' + str(date.today().year))
 
 
 OUTFILE = open(OUTFILE_NAME,"w")
