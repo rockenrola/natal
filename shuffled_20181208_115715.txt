@@ -1,0 +1,26 @@
+Rogerio,Joana
+Joana,Maria Emilia
+Maria Emilia,Rita
+Rita,Tiago
+Tiago,Filipe
+Filipe,Sao
+Sao,Nuno
+Nuno,Mila Franco
+Mila Franco,Paulo
+Paulo,Jaime
+Jaime,Joao Manuel
+Joao Manuel,Marisa
+Marisa,Carla
+Carla,Ana Maria
+Ana Maria,Beta
+Beta,Joel
+Joel,Ines
+Ines,Sara
+Sara,Manuel
+Manuel,Rodrigo
+Rodrigo,Celestino
+Celestino,Guilherme
+Guilherme,Bruno
+Bruno,Odete
+Odete,Cila
+Cila,Rogerio
