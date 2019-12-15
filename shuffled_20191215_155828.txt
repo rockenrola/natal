@@ -1,0 +1,17 @@
+Nuno Franco,Mila Franco
+Mila Franco,Jaime
+Jaime,Cila
+Cila,Tiago
+Tiago,Joao Manuel
+Joao Manuel,Joana
+Joana,Carla
+Carla,Filipe
+Filipe,Ana Maria
+Ana Maria,Nuno Mineiro
+Nuno Mineiro,Beta
+Beta,Manuel
+Manuel,Celestino
+Celestino,Maria Emilia
+Maria Emilia,Ines
+Ines,Joel
+Joel,Nuno Franco
