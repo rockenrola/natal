@@ -1,0 +1,19 @@
+Goncalo Franco,Joana
+Joana,Maria Emilia
+Maria Emilia,Ines
+Ines,Celestino
+Celestino,Mila Franco
+Mila Franco,Joel
+Joel,Nuno Mineiro
+Nuno Mineiro,Manuel
+Manuel,Carla
+Carla,Tiago
+Tiago,Cila
+Cila,Nuno Franco
+Nuno Franco,Joao Manuel
+Joao Manuel,Beta
+Beta,Filipe
+Filipe,Jaime
+Jaime,Silvia
+Silvia,Ana Maria
+Ana Maria,Goncalo Franco
